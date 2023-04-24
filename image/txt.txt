@@ -1,0 +1,46 @@
+product 01
+clo backpack 
+soft pink
+210,000
+
+product 02
+classic boots
+suede beige
+380,000
+
+product 03
+clo mini
+butter
+98,000
+
+product 04
+clo backpack
+leopard
+210,000
+
+product 05
+bow showes
+soap pink
+240,000
+
+product 06
+compact wallet
+silver
+95,000
+
+
+
+minitmute start with an idea of
+making a light and small bag for traveling
+
+enjoy your trip
+
+
+
+font Gelasio 
+
+
+
+
+
+

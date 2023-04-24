@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta property="og:url" content="http://jiaeyammas.dothome.co.kr/pp_minitmute/index.html">
+ <meta property="og:title" content="개인프로젝트_ 미닛뮤트">
+ <meta property="og:type" content="website">
+ <meta property="og:image" content="http://jiaeyammas.dothome.co.kr/pp_minitmute/image/event.jpg">
+ <meta property="og:image:width" content="600">
+ <meta property="og:image:height" content="300">
+ <meta property="og:description" content="개인 프로젝트_미닛뮤트">
+ <!-- CSS -->
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/base.css">
+ <link rel="stylesheet" href="./css/main.css">
+ <link rel="stylesheet" href="./css/swiper.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+ <link rel="icon" href="./image/favicon.png">
+
+ <script src="./js/main.js" defer></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="
+ https://cdn.jsdelivr.net/npm/swiper@9.0.1/swiper-bundle.min.js
+ "></script>
+ <link href="
+ https://cdn.jsdelivr.net/npm/swiper@9.0.1/swiper-bundle.min.css
+ " rel="stylesheet">
+ <title>개인 프로젝트_ 미닛뮤트</title>
+</head>
+<body>
+  <header>
+   <div class="hd_tt">
+    <div class="hd_top flexi">
+     <a href="#none" title="최근에 본 상품 보기">
+      <i class="fa-regular fa-heart"></i> recent viewd</a>
+     <h1>
+      <a href="index.html" title="홈으로 이동">
+       <img src="./image/logo.svg" alt="로고">
+      </a>
+     </h1>
+     <div class="flexi menu">
+     <a href="#none" title="장바구니로 가기">
+      <i class="fa-solid fa-cart-shopping"></i>
+       Your Bag</a>
+     <a href="#none" title="메뉴 보기" class="toggle_btn">
+      <i class="fa-solid fa-bars"></i>
+     </a>
+    </div>
+    </div>
+    <!-- hd_tt -->
+    <div class="hd_bot flexi">
+     <div class="sns">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-twitter"></i>
+     </div>
+     <nav class="gnb">
+     <ul class="flexi">
+      <li><a href="#" title="HOME">HOME</a></li>
+      <li>ALL ITEMS <i class="fa-solid fa-chevron-down"></i>
+       <ul class="hide">
+        <li><a href="#" title="가방">BAG</a></li>
+        <li>SHOES</li>
+        <li>WALLET</li>
+        <li>ETC</li>
+       </ul>
+      </li>
+      <li><a href="#none" title="BAG">BAG</a></li>
+      <li><a href="#none" title="SHOES">SHOES</a></li>
+      <li><a href="#" title="WALLET">WALLET</a></li>
+      <li><a href="#" title="ETC">ETC</a></li>
+     </ul>
+    </nav>
+    <a href="#none" title="대표전화"><i class="fa-solid fa-headphones"></i> 070-8843-0042</a>
+    </div>
+    <!-- hd_bot -->
+   </div>
+   <!-- hd tt -->
+
+  </header>
+  <main>
+    <nav class="total_gnb" id="gnb">
+     <div>
+      <a href="#none" title="닫기 버튼" class="c_btn"><i class="fa-solid fa-xmark"></i></a>
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="#" title="신상">NEW ARRIVAL</a>
+        <li><a href="#" title="가방">BAG</a>
+          <i class="fa-solid fa-chevron-down"></i>
+          <ul class="hide">
+            <li><a href="#" title="클로">Clo</a></li>
+            <li><a href="#" title="클로">Minimal</a></li>
+            <li><a href="#" title="클로">Remood</a></li>
+            <li><a href="#" title="클로">Mood Vintage</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="신발">SHOES
+        </a>
+        <i class="fa-solid fa-chevron-down"></i>
+          <ul class="hide">
+            <li><a href="#" title="클로">Boots</a></li>
+            <li><a href="#" title="클로">Flat</a></li>
+            <li><a href="#" title="클로">Sliper</a></li>
+            <li><a href="#" title="클로">Loafer</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="지갑">WALLET</a><i class="fa-solid fa-chevron-down"></i>
+          <ul class="hide">
+            <li><a href="#" title="클로">Compact</a></li>
+            <li><a href="#" title="클로">MM card</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="지갑">ETC</a><i class="fa-solid fa-chevron-down"></i>
+          <ul class="hide">
+            <li><a href="#" title="클로">Keyring</a></li>
+            <li><a href="#" title="클로">Belt</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+     </nav>
+   <section id="slide">
+    <h2 class="hide">메인 슬라이드</h2>
+    <ul class="flexi banner">
+     <li>
+      <a href="#none">Open Schedule March</a>
+     </li>
+     <li>
+      <a href="#none">Our Lookbook</a>
+     </li>
+     <li>
+      <a href="#none">Enjoy your trip<br>Brand Story</a>
+     </li>
+    </ul>
+
+    <div class="swiper-container main_slide">
+      <div class="swiper-wrapper">
+        <!-- 1 -->
+        <div class="swiper-slide main_slide">
+          <div class="content1 cont">
+            <p>Our New Collection S/S 2023</p>
+            <a href="#none" title="콜렉션 보러 가기" class="check_btn">CHECK IT OUT</a>
+          </div>
+        </div>
+        <!-- 2 -->
+          <div class="swiper-slide">
+            <div class="content2 cont">
+              <p>Carry Over DISCOUNT 10% ~ </p>
+              <a href="#none" title="이월 상품 할인 보러 가기" class="check_btn">CHECK IT OUT</a>
+            </div>
+          </div>
+          <!-- 3 -->
+            <div class="swiper-slide">
+              <div class="content3 cont">
+                <p>INSPIRE From Something</p>
+                <a href="#none" title="영감 이미지 보러 가기" class="check_btn">CHECK IT OUT</a>
+              </div>
+            </div>
+           <!-- wrapper --> 
+        </div>
+        <!-- container -->
+        <div class="swiper-scrollbar"></div>
+
+        
+    </div>
+                
+    <script>
+    let swiper = new Swiper(document.querySelector('.swiper-container'), {
+      autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  scrollbar: {
+        el: ".swiper-scrollbar"
+      },
+  
+});
+
+    </script>
+
+   </section>
+   <article>
+    <h3 class="hide">메인 배너</h3>
+    <div class="main_b flexi">
+      <div class="main_bc">
+        <a href="#none" title="이전 콜렉션 보러 가기">PRE Collection 22(F/W)</a>
+        <a href="#none" title="이전 콜렉션 보러가기" class="check_btn">CHECK IT OUT</a>
+      </div>
+      <div class="main_bc">
+        <a href="#none" title="공지사항 보러가기">Notice</a>
+        <a href="#none" title="이전 콜렉션 보러가기" class="check_btn">CHECK IT OUT</a>
+      </div>
+    </div>
+   </article>
+
+   <section id="sale">
+    <h3>NEW ARRIVALS</h3>
+    <ul class="category flexi">
+     <li>
+      <a href="#none" title="전체 상품">ALL</a>
+     </li>
+     <li>
+      <a href="#none" title="가방">BAG</a>
+     </li>
+     <li>
+      <a href="#none" title="신발">SHOES</a>
+     </li>
+     <li>
+      <a href="#none" title="지갑">WALLET</a>
+     </li>
+     <li>
+      <a href="#none" title="기타">ETC</a>
+     </li>
+    </ul>
+
+    <ul class="sale flexi">
+      <li>
+        <a href="#" title="상품1">
+          <img src="./image/product01.jpg" alt="상품1">
+          <a href="#" title="클로 백팩">clo backpack</a>
+          <a href="#" title="소프트 핑크">soft pink</a>
+          <a href="#" title="210,000">210,000</a>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="상품1">
+          <img src="./image/product02.jpg" alt="상품2">
+          <a href="#" title="클래식 부츠">classic boots</a>
+          <a href="#" title="수드 베이지">suede beige</a>
+          <a href="#" title="380,000">380,000</a>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="상품1">
+          <img src="./image/product03.jpg" alt="상품3">
+          <a href="#" title="클로 미니">clo mini</a>
+          <a href="#" title="버터">butter</a>
+          <a href="#" title="98,000">98,000</a>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="상품1">
+          <img src="./image/product04.jpg" alt="상품1">
+          <a href="#" title="클로 백팩">clo backpack</a>
+          <a href="#" title="소프트 핑크">leopard</a>
+          <a href="#" title="210,000">210,000</a>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="상품1">
+          <img src="./image/product05.jpg" alt="상품1">
+          <a href="#" title="클로 백팩">bow showes</a>
+          <a href="#" title="소프트 핑크">soap pink</a>
+          <a href="#" title="210,000">240,000</a>
+        </a>
+      </li>
+      <li>
+        <a href="#" title="상품1">
+          <img src="./image/product06.jpg" alt="상품1">
+          <a href="#" title="클로 백팩">compact wallet</a>
+          <a href="#" title="소프트 핑크">silver</a>
+          <a href="#" title="95,000">95,000</a>
+        </a>
+      </li>
+    </ul>
+   </section>
+   <article id="event_img">
+    <h3 class="hide">이벤트 이미지</h3>
+    <div>
+      <a href="#none" title="이벤트 안내">New Showroom Open Event</a>
+      <a href="#none" title="콜렉센 보러 가기" class="check_btn">CHECK IT OUT</a>
+    </div>
+   </article>
+   
+   <article id="showroom">
+    <h3>Showroom</h3>
+    <ul class="flexi">
+      <li class="on"><a href="#none" title="한남" class="tab_btn">HANNAM</a>
+        <div class="tap_item">
+        <div class="show_tabimg"></div>
+        <p>HANNAM Showroom</p>
+        <p>070-4640-2804</p>
+        </div>
+      </li>
+      <li><a href="#none" title="성수" class="tab_btn">SEONGSU</a>
+        <div class="tap_item">
+        <div class="show_tabimg"></div>
+        <p>SEONGSU Showroom</p>
+        <p>070-4640-2803</p>
+        </div>
+      </li>
+    </ul>
+   </article>
+  </main>
+  <footer>
+    <div class="f_tt flexi">
+      <div class="f_logo">
+        <a href="#" title="로고">
+          <img src="./image/logo.svg" alt="로고 이미지">
+        </a>
+        <p>&copy;2023 jiaeyamm All rights reserved.</p>
+      </div>
+      <div class="f_lnb">
+        <ul>
+          <li>
+            <a href="#none" title="전체 상품">ALL</a>
+           </li>
+           <li>
+            <a href="#none" title="가방">BAG</a>
+           </li>
+           <li>
+            <a href="#none" title="신발">SHOES</a>
+           </li>
+           <li>
+            <a href="#none" title="지갑">WALLET</a>
+           </li>
+           <li>
+            <a href="#none" title="기타">ETC</a>
+           </li>
+        </ul>
+      </div>
+      <div class="f_subs flexi">
+        <input type="email" name="susb_email" placeholder=" Your email here">
+        <input type="button" value="SUBS">
+      </div>
+    </div>
+  </footer>
+  <a href="#none" title="맨 위로 가기" class="top_btn"><i class="fa-solid fa-angles-up"></i></a>
+</body>
+</html>
